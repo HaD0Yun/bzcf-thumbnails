@@ -12,6 +12,14 @@ Collected thumbnail images from the BZCF (`@B_ZCF`) YouTube videos page.
 - `boards/thumbnail_label_board_preview.jpg` — quick contact sheet preview.
 - `boards/thumbnail_label_board.png` — full contact sheet.
 
+## AgentSkill
+
+- `skills/bizcafe-thumbnail-reply/` — helps agents choose an existing BizCafe/BZCF thumbnail as a short SNS-style reply or reaction image. Example:
+
+  ```bash
+  python3 skills/bizcafe-thumbnail-reply/scripts/select_thumbnail.py "AI 때문에 개발 공부하기 애매할 때" --tone ai-tech --limit 3
+  ```
+
 ## Notes
 
 The files are collected for reference/indexing. Copyrights for the source thumbnails and videos belong to their respective owners.
